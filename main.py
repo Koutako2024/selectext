@@ -9,8 +9,7 @@ def main() -> None:
     try:
         pyautogui.moveTo(
             pyautogui.locateCenterOnScreen(
-                commands[terget],
-                minSearchTime=0,  # confidence=0.5
+                commands[terget], minSearchTime=0, confidence=0.9
             ),
             duration=0.3,
         )
