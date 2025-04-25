@@ -1,6 +1,10 @@
 # TODO
+* searching by text on screen
+  * contour detection
+  * ocr
+* make passive.
+  * pystray.
+  * use keyboard module.
 * add a prop file.
-* pystray.
-* use keyboard module.
-* yolo
-* use LLM
+* searching by nuance
+  * use LLM
